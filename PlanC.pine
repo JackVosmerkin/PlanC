@@ -3,14 +3,6 @@
 //@version=5
 
 //
-//  CIRCLES & TRIANGLES:
-//    - LITTLE CIRCLE: They appear at all WaveTrend wave crossings.
-//    - GREEN CIRCLE: The wavetrend waves are at the oversold level and have crossed up (bullish).
-//    - RED CIRCLE: The wavetrend waves are at the overbought level and have crossed down (bearish).
-//    - GOLD/ORANGE CIRCLE: When RSI is below 20, WaveTrend waves are below or equal to -80 and have crossed up after good bullish divergence (DONT BUY WHEN GOLD CIRCLE APPEAR).
-//    - None of these circles are certain signs to trade. It is only information that can help you. 
-//    - PURPLE TRIANGLE: Appear when a bullish or bearish divergence is formed and WaveTrend waves crosses at overbought and oversold points.
-//
 //  NOTES:
 //    - I am not an expert trader or know how to program pine script as such, in fact it is my first indicator only to study and all the code is copied and modified from other codes that are published in TradingView.
 //    - I am very grateful to the entire TV community that publishes codes so that other newbies like me can learn and present their results. This is an attempt to imitate Market Cipher B. 
@@ -29,7 +21,7 @@
 //      - HT Candle is red
 //      - WT > 0 and crossed down
 
-study(title = 'VuManChu B Divergences', shorttitle = 'VMC Cipher_B_Divergences')
+study(title = 'Plan C', shorttitle = 'PlanC')
 
 // PARAMETERS {
 
